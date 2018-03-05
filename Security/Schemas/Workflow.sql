@@ -1,0 +1,3 @@
+CREATE SCHEMA [Workflow]
+AUTHORIZATION [dbo]
+GO

@@ -1,0 +1,3 @@
+CREATE SCHEMA [Prospect]
+AUTHORIZATION [dbo]
+GO

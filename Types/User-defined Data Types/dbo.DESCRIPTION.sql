@@ -1,0 +1,2 @@
+CREATE TYPE [dbo].[DESCRIPTION] FROM varchar (300) NULL
+GO

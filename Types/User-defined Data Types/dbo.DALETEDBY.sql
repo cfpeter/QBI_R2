@@ -1,0 +1,2 @@
+CREATE TYPE [dbo].[DALETEDBY] FROM varchar (100) NULL
+GO

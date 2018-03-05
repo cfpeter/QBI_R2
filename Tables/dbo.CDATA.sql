@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[CDATA]
+(
+[cfid] [char] (64) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[app] [char] (64) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[data] [text] COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+CREATE UNIQUE NONCLUSTERED INDEX [id1] ON [dbo].[CDATA] ([cfid], [app]) ON [PRIMARY]
+GO
